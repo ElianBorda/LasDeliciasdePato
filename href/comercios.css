@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1, h2, h3, p, a{
+    font-family: 'Quicksand', sans-serif;
+}
+.body {
+    background: '#F5F5F5';
+}
+.navegador {
+    width: auto;
+    background: #1E1E1E;
+}
+.navegador ul{
+    list-style: none;
+}
+.lista {
+    text-align: left;
+}
+.lista > li{
+    position: relative;
+    display: inline-block;
+}
+.lista > li > a{
+    display: block;
+    padding: 30px 28px;
+    width: 170px;
+    text-align: center;
+    color: #B1B1B1;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-line: none;
+}
+.lista > li > a:hover{
+    color: #1E1E1E;
+    background: #B1B1B1;
+    transition: .8s;
+}
+.submenu {
+    position: absolute;
+    background: #1E1E1E;
+    width: 100%; 
+    display: none;
+    padding: auto;
+    text-align: center;
+}
+.submenu  li  a{
+    display: block;
+    color: #B1B1B1;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+}
+.submenu li a:hover{
+    color:  #1E1E1E;
+    background-color: #B1B1B1;
+    transition: .8s;
+}
+.submenupizza {
+    left: 100%;
+    top: 0%;
+    position: absolute;
+    background: #1E1E1E;
+    width: 100%; 
+    display: none;
+    padding: auto;
+    text-align: center;
+}
+.submenupizza li a {
+    display: block;
+    color: #B1B1B1;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+}
+.submenupizza li a:hover{
+    color:  #1E1E1E;
+    background-color: #B1B1B1;
+    transition: .8s;
+}
+.submenu li:hover .submenupizza {
+    display: block;
+}
+.lista li:hover .submenu{
+    display: block;
+}
+.imga {
+    display: block;
+    width: 79px;
+    height: 79px;
+}
+.til {
+    display: inline-block;
+    margin: auto;
+    float: left;
+    width: auto;
+    height: auto;
+    object-fit: cover
+}
+.footer {
+    background: #0B0B0B;
+    text-align: center;
+    padding: 16px;
+    color: white;
+}
+.pp {
+    font-size: 20px;
+    text-align: left;
+}
+.coss {
+    object-fit: cover;
+    color: white;
+    display: inline-block;
+    padding: 1.5cm;
+}
+.comss{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../carpeta-de-imagenes/comercios.jpg');
+    background-position: center;
+    background-size: cover;
+}
